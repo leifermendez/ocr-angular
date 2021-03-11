@@ -1,0 +1,72 @@
+.wrapper {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 3%;
+  transition: all ease 200ms;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.085),
+  0 0px 80px rgba(0, 0, 0, 0.17);
+
+  .wrapper-btn {
+    //background-color: red;
+    padding: .5rem;
+    margin-left: -1rem;
+    width: 2rem;
+    margin-top: 1rem;
+
+    button {
+      background-color: white;
+      padding: .5rem;
+      border: 0;
+      z-index: 1;
+      cursor: pointer;
+      font-size: 1.5rem;
+    }
+  }
+
+  .wrapper-sections {
+    display: grid;
+    height: 100%;
+
+  }
+
+  .canvas-overlay {
+    position: absolute;
+    height: 50rem;
+    width: 80%;
+    object-fit: contain;
+    background-color: #e5edff61;
+    box-shadow: 0 0 10px #efefef;
+  }
+
+
+  .input-image {
+    height: 50rem;
+    width: 80%;
+    object-fit: contain;
+  }
+
+}
+
+.loading {
+  position: fixed;
+  z-index: 3;
+  background-color: #ffffffb3;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  .in{
+    text-align: center;
+    padding: 2rem;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+}

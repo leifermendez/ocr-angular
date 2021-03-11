@@ -1,0 +1,25 @@
+.wrapper{
+  width: 100%;
+  display: flex;
+  color: #43555e;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2.8px 10px rgba(0, 0, 0, 0.085),
+  0 22px 80px rgba(0, 0, 0, 0.17);
+  border-bottom: solid 1px white;
+
+  .menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    .menu-item{
+      cursor: pointer;
+      font-size: 1.35rem;
+      padding: .5rem 2rem;
+    }
+
+  }
+}

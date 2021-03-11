@@ -1,0 +1,13 @@
+.wrapper{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: #004cff;
+  color: white;
+  p{
+    white-space: pre-wrap;
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,9 @@
+<div class="wrapper">
+  <ul class="list-file">
+    <li class="item-file" (click)="clickImage(item)" *ngFor="let item of listImages">
+      <div class="block">
+        <img [src]="'../../assets/images/'+item.src" alt="" class="input-image">
+      </div>
+    </li>
+  </ul>
+</div>
